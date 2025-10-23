@@ -492,17 +492,17 @@ npm test
 ## Screenshots
 
 ### Conectar Carteira Web3
-<img src="docs/connect-wallet.jpeg" alt="Interface de conexão de carteira Web3" width="50%" />
+<img src="docs/connect-wallet.jpg" alt="Interface de conexão de carteira Web3" width="50%" />
 
 *Interface para conexão com carteiras Web3 (MetaMask, WalletConnect, etc.)*
 
 ### Criar Ingresso
-<img src="docs/create-ticket.jpeg" alt="Formulário de criação de ingresso" width="50%" />
+<img src="docs/create-ticket.jpg" alt="Formulário de criação de ingresso" width="50%" />
 
 *Formulário para criação e emissão de novos ingressos NFT*
 
 ### Consultar Ingressos
-<img src="docs/fetch-tickets.jpeg" alt="Listagem de ingressos emitidos" width="50%" />
+<img src="docs/fetch-tickets.jpg" alt="Listagem de ingressos emitidos" width="50%" />
 
 *Tela de consulta e visualização de ingressos emitidos*
 
