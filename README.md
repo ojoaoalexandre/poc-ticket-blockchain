@@ -202,8 +202,6 @@ PINATA_JWT=your_pinata_jwt_here
 2. Conecte sua carteira MetaMask
 3. Solicite POL tokens gratuitos para testes
 
----
-
 ## Execução do Projeto
 
 ### Ambiente de Desenvolvimento Local
@@ -317,8 +315,6 @@ npm run preview     # Preview do build de produção
 npm run lint        # Executa linter
 ```
 
----
-
 ## Estrutura do Projeto
 
 ```
@@ -368,8 +364,6 @@ poc-ticket-blockchain/
 ├── .env.example             # Exemplo de variáveis de ambiente
 └── README.md                # Este arquivo
 ```
-
----
 
 ## Fluxos Importantes da Aplicação
 
@@ -494,6 +488,24 @@ rm -rf cache artifacts
 npx hardhat compile
 npm test
 ```
+
+## Screenshots
+
+### Conectar Carteira Web3
+<img src="docs/connect-wallet.jpeg" alt="Interface de conexão de carteira Web3" width="50%" />
+
+*Interface para conexão com carteiras Web3 (MetaMask, WalletConnect, etc.)*
+
+### Criar Ingresso
+<img src="docs/create-ticket.jpeg" alt="Formulário de criação de ingresso" width="50%" />
+
+*Formulário para criação e emissão de novos ingressos NFT*
+
+### Consultar Ingressos
+<img src="docs/fetch-tickets.jpeg" alt="Listagem de ingressos emitidos" width="50%" />
+
+*Tela de consulta e visualização de ingressos emitidos*
+
 
 ## Próximos Passos e Melhorias
 
