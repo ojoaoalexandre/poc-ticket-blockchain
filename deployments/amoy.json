@@ -1,0 +1,23 @@
+{
+  "EventTicket": {
+    "network": "amoy",
+    "chainId": 80002,
+    "contract": "EventTicket",
+    "address": "0xb72D5F812Ef436a37aAbE11E830e8ead3E3216A8",
+    "deployer": "0x29627C30F0DAA6ecEd0b2a6ea6Ec4034CA122632",
+    "deployedAt": "2025-10-21T05:18:11.727Z",
+    "transactionHash": "0xf22c72663fdbc44d32c1bbb0002f1807f3bbc4afef59468b543296925e9f33f7",
+    "blockNumber": 27983078,
+    "gasPrice": "45000000063",
+    "compiler": {
+      "version": "0.8.20",
+      "optimizer": true,
+      "runs": 200
+    },
+    "contractDetails": {
+      "name": "EventTicket",
+      "symbol": "EVTKT",
+      "owner": "0x29627C30F0DAA6ecEd0b2a6ea6Ec4034CA122632"
+    }
+  }
+}

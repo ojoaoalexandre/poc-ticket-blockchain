@@ -1,0 +1,42 @@
+{
+  "name": "NFT Ticket - Conferência Tech Brasil 2026 - Assento C-101",
+  "description": "Ingresso NFT verificado na blockchain para Conferência Tech Brasil 2026. Assento C-101, Setor Plateia Central. Data do evento: 20/05/2026.",
+  "image": "ipfs://QmZzZzZzZzZzZzZzZzZzZzZzZzZzZzZzZzZzZzZzZzZz",
+  "attributes": [
+    {
+      "trait_type": "Evento",
+      "value": "Conferência Tech Brasil 2026"
+    },
+    {
+      "trait_type": "Assento",
+      "value": "C-101"
+    },
+    {
+      "trait_type": "Setor",
+      "value": "Plateia Central"
+    },
+    {
+      "trait_type": "Data",
+      "value": 1779494400,
+      "display_type": "date"
+    },
+    {
+      "trait_type": "Status",
+      "value": "Válido"
+    },
+    {
+      "trait_type": "Número do Ticket",
+      "value": 3567,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Categoria",
+      "value": "Normal"
+    },
+    {
+      "trait_type": "Local",
+      "value": "Centro de Convenções"
+    }
+  ],
+  "external_url": "https://example.com/event/conferencia-tech-brasil"
+}

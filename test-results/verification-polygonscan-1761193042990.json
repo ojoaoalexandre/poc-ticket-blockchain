@@ -1,0 +1,54 @@
+{
+  "timestamp": "2025-10-23T04:17:22.990Z",
+  "transaction": {
+    "hash": "0xd18a7e50b9675e48fbafa033a08cebd9502f80eabf5a894a8ac5d5e75ca407cf",
+    "status": 1,
+    "blockNumber": 28067616,
+    "gasUsed": "248619",
+    "from": "0x29627C30F0DAA6ecEd0b2a6ea6Ec4034CA122632",
+    "to": "0xb72D5F812Ef436a37aAbE11E830e8ead3E3216A8"
+  },
+  "event": {
+    "found": true,
+    "tokenId": "2",
+    "owner": "0x29627C30F0DAA6ecEd0b2a6ea6Ec4034CA122632",
+    "eventId": "704212",
+    "seat": "A-42"
+  },
+  "contract": {
+    "tokenURI": "ipfs://bafkreicoplpwehctvefjkbk7zs3tkodd6oghax367bhb2p7no46z4irpjy",
+    "owner": "0x29627C30F0DAA6ecEd0b2a6ea6Ec4034CA122632",
+    "checkedIn": false
+  },
+  "validations": [
+    {
+      "check": "Status Success",
+      "passed": true
+    },
+    {
+      "check": "To = Contrato",
+      "passed": true
+    },
+    {
+      "check": "Evento TicketMinted",
+      "passed": true
+    },
+    {
+      "check": "Token ID correspondente",
+      "passed": true
+    },
+    {
+      "check": "tokenURI correto",
+      "passed": true
+    },
+    {
+      "check": "ownerOf correto",
+      "passed": true
+    },
+    {
+      "check": "checkedIn = false",
+      "passed": true
+    }
+  ],
+  "allPassed": true
+}

@@ -1,0 +1,42 @@
+{
+  "name": "NFT Ticket - Festival Eletrônico Summer - Assento B-15",
+  "description": "Ingresso NFT verificado na blockchain para Festival Eletrônico Summer. Assento B-15, Setor Camarote Gold. Data do evento: 15/02/2026.",
+  "image": "ipfs://QmYyYyYyYyYyYyYyYyYyYyYyYyYyYyYyYyYyYyYyYyYy",
+  "attributes": [
+    {
+      "trait_type": "Evento",
+      "value": "Festival Eletrônico Summer"
+    },
+    {
+      "trait_type": "Assento",
+      "value": "B-15"
+    },
+    {
+      "trait_type": "Setor",
+      "value": "Camarote Gold"
+    },
+    {
+      "trait_type": "Data",
+      "value": 1771113600,
+      "display_type": "date"
+    },
+    {
+      "trait_type": "Status",
+      "value": "Válido"
+    },
+    {
+      "trait_type": "Número do Ticket",
+      "value": 2042,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Categoria",
+      "value": "Premium"
+    },
+    {
+      "trait_type": "Local",
+      "value": "Parque de Exposições"
+    }
+  ],
+  "external_url": "https://example.com/event/festival-eletronico-summer"
+}

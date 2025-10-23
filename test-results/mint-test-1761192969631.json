@@ -1,0 +1,35 @@
+{
+  "timestamp": "2025-10-23T04:16:09.630Z",
+  "network": "Polygon Amoy",
+  "chainId": 80002,
+  "contract": "0xb72D5F812Ef436a37aAbE11E830e8ead3E3216A8",
+  "wallet": "0x29627C30F0DAA6ecEd0b2a6ea6Ec4034CA122632",
+  "ticketData": {
+    "eventName": "Rock Festival Test 2025",
+    "eventDate": "2025-12-31T00:00:00.000Z",
+    "ticketType": "VIP",
+    "sector": "Pista Premium",
+    "seat": "A-42",
+    "description": "Ticket NFT de teste para validação OpenSea - Task 20",
+    "venue": "Estádio Test Arena",
+    "ticketNumber": "6a210bd7-c902-4bd1-8c84-ab27cff84520"
+  },
+  "transaction": {
+    "hash": "0xd18a7e50b9675e48fbafa033a08cebd9502f80eabf5a894a8ac5d5e75ca407cf",
+    "blockNumber": 28067616,
+    "gasUsed": "248619",
+    "status": 1
+  },
+  "ipfs": {
+    "imageCID": "bafkreia4dsfccee5uoqohwqfs6c5tloosgrz7lmtocaqqyconyxgvexrqe",
+    "metadataCID": "bafkreicoplpwehctvefjkbk7zs3tkodd6oghax367bhb2p7no46z4irpjy",
+    "tokenURI": "ipfs://bafkreicoplpwehctvefjkbk7zs3tkodd6oghax367bhb2p7no46z4irpjy",
+    "imageGateway": "https://gateway.pinata.cloud/ipfs/bafkreia4dsfccee5uoqohwqfs6c5tloosgrz7lmtocaqqyconyxgvexrqe",
+    "metadataGateway": "https://gateway.pinata.cloud/ipfs/bafkreicoplpwehctvefjkbk7zs3tkodd6oghax367bhb2p7no46z4irpjy"
+  },
+  "nft": {
+    "tokenId": "2",
+    "polygonscan": "https://amoy.polygonscan.com/tx/0xd18a7e50b9675e48fbafa033a08cebd9502f80eabf5a894a8ac5d5e75ca407cf",
+    "opensea": "https://testnets.opensea.io/assets/amoy/0xb72D5F812Ef436a37aAbE11E830e8ead3E3216A8/2"
+  }
+}

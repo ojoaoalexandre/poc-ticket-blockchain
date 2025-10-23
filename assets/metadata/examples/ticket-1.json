@@ -1,0 +1,42 @@
+{
+  "name": "NFT Ticket - Rock Festival 2025 - Assento A-42",
+  "description": "Ingresso NFT verificado na blockchain para Rock Festival 2025. Assento A-42, Setor Pista Premium. Data do evento: 31/12/2025.",
+  "image": "ipfs://QmXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXx",
+  "attributes": [
+    {
+      "trait_type": "Evento",
+      "value": "Rock Festival 2025"
+    },
+    {
+      "trait_type": "Assento",
+      "value": "A-42"
+    },
+    {
+      "trait_type": "Setor",
+      "value": "Pista Premium"
+    },
+    {
+      "trait_type": "Data",
+      "value": 1767139200,
+      "display_type": "date"
+    },
+    {
+      "trait_type": "Status",
+      "value": "Válido"
+    },
+    {
+      "trait_type": "Número do Ticket",
+      "value": 1001,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Categoria",
+      "value": "VIP"
+    },
+    {
+      "trait_type": "Local",
+      "value": "Estádio Nacional"
+    }
+  ],
+  "external_url": "https://example.com/event/rock-festival-2025"
+}

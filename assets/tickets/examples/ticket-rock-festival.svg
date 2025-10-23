@@ -1,0 +1,55 @@
+<svg width="400" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EC4899;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="600" fill="url(#grad)"/>
+
+  <!-- Border -->
+  <rect x="10" y="10" width="380" height="580" fill="none" stroke="white" stroke-width="2" rx="10"/>
+
+  <!-- Title -->
+  <text x="200" y="80" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle">
+    ROCK FESTIVAL
+  </text>
+  <text x="200" y="120" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">
+    2025
+  </text>
+
+  <!-- Ticket Type Badge -->
+  <rect x="140" y="150" width="120" height="40" fill="rgba(255,255,255,0.2)" rx="5"/>
+  <text x="200" y="177" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">
+    VIP TICKET
+  </text>
+
+  <!-- Details -->
+  <text x="50" y="250" font-family="Arial, sans-serif" font-size="16" fill="white" font-weight="bold">
+    EVENT DETAILS
+  </text>
+
+  <text x="50" y="290" font-family="Arial, sans-serif" font-size="14" fill="rgba(255,255,255,0.9)">
+    Sector: VIP
+  </text>
+  <text x="50" y="320" font-family="Arial, sans-serif" font-size="14" fill="rgba(255,255,255,0.9)">
+    Seat: A35
+  </text>
+  <text x="50" y="350" font-family="Arial, sans-serif" font-size="14" fill="rgba(255,255,255,0.9)">
+    Event ID: #001
+  </text>
+  <text x="50" y="380" font-family="Arial, sans-serif" font-size="14" fill="rgba(255,255,255,0.9)">
+    Token ID: #1001
+  </text>
+
+  <!-- QR Code -->
+  <rect x="150" y="420" width="100" height="100" fill="white" rx="5"/>
+  <image x="150" y="420" width="100" height="100" href="data:image/png;base64,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" />
+
+  <!-- Footer -->
+  <text x="200" y="560" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.7)" text-anchor="middle">
+    NFT TICKET - BLOCKCHAIN VERIFIED
+  </text>
+</svg>

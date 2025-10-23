@@ -1,0 +1,46 @@
+{
+  "name": "event-ticket-nft",
+  "version": "1.0.0",
+  "description": "Sistema de emissão e validação de ingressos digitais baseados em NFTs",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "test:coverage": "hardhat coverage",
+    "test:gas": "REPORT_GAS=true hardhat test",
+    "test:metadata": "npx tsx scripts/test-metadata.ts",
+    "test:metadata:all": "npx tsx scripts/run-all-tests.ts",
+    "test:ipfs": "npx tsx scripts/test-pinata-integration.ts",
+    "test:rpc": "npx tsx scripts/test-rpc-connection.ts",
+    "deploy:local": "npx tsx scripts/deploy.ts --network hardhat",
+    "deploy:amoy": "npx tsx scripts/deploy.ts --network amoy",
+    "verify:amoy": "hardhat verify --network amoy",
+    "mint:ipfs": "npx tsx scripts/mint-ticket-with-ipfs.ts",
+    "generate:tickets": "npx tsx scripts/generate-ticket-examples.ts"
+  },
+  "keywords": [
+    "nft",
+    "blockchain",
+    "tickets",
+    "polygon",
+    "hardhat"
+  ],
+  "author": "João Alexandre",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-mocha-ethers": "^3.0.0",
+    "@types/qrcode": "^1.5.5",
+    "dotenv": "^17.2.3",
+    "hardhat": "^3.0.7"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.4.0",
+    "@types/node-fetch": "^2.6.13",
+    "@types/uuid": "^10.0.0",
+    "form-data": "^4.0.4",
+    "node-fetch": "^3.3.2",
+    "pinata": "^2.5.1",
+    "qrcode": "^1.5.4",
+    "uuid": "^13.0.0"
+  }
+}
